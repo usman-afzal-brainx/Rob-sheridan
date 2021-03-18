@@ -383,7 +383,6 @@ li {
 .banner {
   font-family: sans-serif;
   font-size: 20px;
-  font-weight: 500;
 }
 .price p,
 .discounted-price,
@@ -406,4 +405,7 @@ li {
 }
 .discounted-price {
   font-weight: 600;
+}
+.department-dropbox {
+  border: solid 1px #dedede;
 }
