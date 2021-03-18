@@ -174,7 +174,8 @@ textarea {
  */
 
 button,
-input { /* 1 */
+input {
+  /* 1 */
   overflow: visible;
 }
 
@@ -184,7 +185,8 @@ input { /* 1 */
  */
 
 button,
-select { /* 1 */
+select {
+  /* 1 */
   text-transform: none;
 }
 
@@ -346,4 +348,62 @@ template {
 
 [hidden] {
   display: none;
+}
+
+li {
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.navbar .nav-item .nav-link {
+  color: black !important;
+  cursor: pointer;
+}
+.side-shirts {
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.side-shirts img:nth-child(1) {
+  width: 114px;
+}
+.side-shirts img:nth-child(2) {
+  width: 102px;
+}
+.main-shirt p {
+  display: inline-block;
+}
+.main-shirt img {
+  text-align: center;
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 547px;
+}
+.banner {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+.price p,
+.discounted-price,
+.bar,
+.original-price {
+  display: inline-block;
+}
+.second-part {
+  font-family: sans-serif;
+}
+.price {
+  font-size: 28px;
+}
+.original-price,
+.bar {
+  color: #e1e1e1;
+}
+.original-price p {
+  text-decoration: line-through;
+}
+.discounted-price {
+  font-weight: 600;
 }
