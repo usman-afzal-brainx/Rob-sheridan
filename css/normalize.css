@@ -372,6 +372,7 @@ li {
 
 .shirt-menu p {
   display: inline-block;
+  font-weight: 600;
 }
 
 .main-shirt img {
@@ -462,7 +463,16 @@ li {
 td {
   text-align: center;
 }
-.table {
+
+.table td,
+.table tr {
+  border: 0 !important;
+}
+
+.table tr {
   background-color: #fafafa;
-  border: none;
+}
+
+.table tr:nth-child(2) {
+  background-color: #cecece !important;
 }
