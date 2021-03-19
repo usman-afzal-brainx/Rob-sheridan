@@ -442,3 +442,27 @@ li {
   border: solid 1px;
   border-radius: 0;
 }
+.size-banner {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+.size-type {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+.sizes > p {
+  display: inline-block;
+  margin-right: 50px;
+}
+.size-information {
+  background-color: #fafafa;
+}
+td {
+  text-align: center;
+}
+.table {
+  background-color: #fafafa;
+  border: none;
+}
