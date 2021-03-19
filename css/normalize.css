@@ -420,14 +420,26 @@ li {
 .size {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
+  min-width: 30px;
+  min-height: 30px;
 }
 .dropdown > button,
-.dropdown > button:hover,
-.btn-dark,
-.btn-dark:hover {
+.dropdown > button:hover {
   width: 100%;
   background-color: white;
   color: #000000;
   border: solid 1px #dedede;
+  border-radius: 0;
+}
+.qty .dropdown-toggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-button .btn-dark,
+.cart-button .btn-dark:hover {
+  width: 100%;
+  border: solid 1px;
   border-radius: 0;
 }
