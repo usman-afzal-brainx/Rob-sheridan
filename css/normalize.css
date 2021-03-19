@@ -409,3 +409,25 @@ li {
 .department-dropbox {
   border: solid 1px #dedede;
 }
+.type-1,
+.type-2,
+.size {
+  font-weight: 600;
+  text-align: center;
+  border: solid 1px #dedede;
+}
+.type-1,
+.size {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+.dropdown > button,
+.dropdown > button:hover,
+.btn-dark,
+.btn-dark:hover {
+  width: 100%;
+  background-color: white;
+  color: #000000;
+  border: solid 1px #dedede;
+  border-radius: 0;
+}
