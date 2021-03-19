@@ -465,7 +465,7 @@ td {
 }
 
 .table td,
-.table tr {
+.table th {
   border: 0 !important;
 }
 
@@ -475,4 +475,12 @@ td {
 
 .table tr:nth-child(2) {
   background-color: #cecece !important;
+}
+
+.description-label p {
+  font-size: 20px;
+  font-weight: 600;
+}
+.bold-line {
+  font-weight: 600;
 }
