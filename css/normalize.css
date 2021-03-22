@@ -497,3 +497,22 @@ li {
   margin-bottom: 20px;
   padding-bottom: 10px;
 }
+
+.review-heading {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.review-title {
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  margin-bottom: 20px;
+}
+.review-body {
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  height: 149px;
+}
+
+.review-title > p,
+.review-body > p {
+  margin-left: 10px;
+}
